@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Karla', 'sans-serif';
+}
+
+body{
+    background: hsl(204, 43%, 93%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-size: 90%;
+}
+
+h2{
+    font-size: larger;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+section.community {
+    background: #fff;
+    max-width: 550px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+.top h1{
+    color:  hsl(179, 62%, 43%);
+    margin-bottom: 25px;
+}
+
+.yellow-text{
+    color: hsl(71, 73%, 54%);
+}
+
+.top{
+    padding: 30px;
+}
+
+.top p {
+    color: hsl(218, 22%, 67%);
+    line-height: 30px;
+}
+
+.bottom {
+    display: flex;
+    flex: 1 0;
+    flex-wrap: wrap;
+}
+
+.bottom p {
+    color: hsl(204, 43%, 93%);
+    line-height: 25px;
+}
+
+.subscription { 
+    background: hsl(179, 62%, 43%);
+    padding: 30px;
+    flex: 1 0 200px;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+p.large-text{
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+p.faded{
+    color: hsl(204, 43%, 93%, 0.5);
+}
+
+.subscription button {
+    font-size: 100%;
+    font-weight: bold;
+    color: #fff;
+    background: hsl(71, 73%, 54%);
+    width: 100%;
+    max-width: 250px;
+    padding: 15px 0;
+    border-radius: 4px;
+    margin-top: 40px;
+    box-shadow: 2px 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+.why-us{
+    background:  hsl(179, 62%, 43%, 50%);
+    padding: 30px;
+    flex: 1 0 200px;
+    color: hsl(218, 22%, 67%, 0.7);
+}
+
+.why-us li{
+    list-style-type: none;
+    line-height: 25px;
+    color: hsl(204, 43%, 93%);
+}
